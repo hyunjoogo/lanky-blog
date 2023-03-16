@@ -10,6 +10,7 @@ module.exports = {
     siteUrl,
   },
   plugins: [
+    'gatsby-plugin-netlify',
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-robots-txt`,
     {
